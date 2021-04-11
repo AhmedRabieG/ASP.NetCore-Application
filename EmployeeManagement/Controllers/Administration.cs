@@ -65,7 +65,7 @@ namespace EmployeeManagement.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("index", "home");
+                    return RedirectToAction("ListRoles", "Administration");
                 }
 
                 foreach (IdentityError error in result.Errors)
@@ -98,7 +98,7 @@ namespace EmployeeManagement.Controllers
 
             foreach (var user in userManager.Users)
             {
-
+                //Error
                 //if (await userManager.IsInRoleAsync(user, role.Name))
                 //{
                 model.Users.Add(user.UserName);
@@ -160,8 +160,9 @@ namespace EmployeeManagement.Controllers
                 {
                     UserId = user.Id,
                     UserName = user.UserName
-                };
 
+                };
+                // Error
                 //if (await userManager.IsInRoleAsync(user, role.Name))
                 //{
                 userRoleViewModel.IsSelected = true;

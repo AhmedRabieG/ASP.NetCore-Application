@@ -5,7 +5,7 @@
 }
 
 <h1>All Roles</h1>
-
+ 
 @if (Model.Any())
 {
     <a class="btn btn-primary mb-3" style="width:auto" asp-action="CreateRole"
@@ -22,10 +22,11 @@
             </div>
             <div class="card-footer">
                 @*<a asp-controller="Administration" asp-action="EditRole"
-                   asp-route-id="@role.Id" class="btn btn-primary">
-                    Edit
+                 asp-route-id="@role.Id" class="btn btn-primary">
+                 Edit
+                <a href="" class="btn btn-danger" ></a>
                 </a>*@
-               
+
                 <form asp-action="DeleteRole" asp-route-id="@role.Id" method="post">
                     <a href="~/Administration/EditRole/@role.Id" class="btn btn-primary">Edit</a>
                     <span id="confirmDeleteSpan_@role.Id" style="display:none">
