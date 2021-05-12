@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
 
     public class Administration : Controller
     {
@@ -187,8 +187,8 @@ namespace EmployeeManagement.Controllers
             {
                 ViewBag.ErrorMessage = $"Role with Id = {roleId} cannot be found";
                 return View("NotFound");
-            }
-
+            } 
+             
             for (int i = 0; i < model.Count; i++)
             {
                 var user = await userManager.FindByIdAsync(model[i].UserId);
