@@ -557,7 +557,6 @@ C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\o
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.TagHelpers.input.cache
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.TagHelpers.output.cache
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.RazorCoreGenerate.cache
-C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\_ViewStart.cshtml.g.cs
@@ -586,3 +585,8 @@ C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\o
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.dll
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
+C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
+C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
+C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\AccessDenied.cshtml.g.cs
+C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Ahmed Rabie g\source\repos\ASP.NetCore-Application\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Facebook.dll

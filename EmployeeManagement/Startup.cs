@@ -34,9 +34,46 @@ namespace EmployeeManagement
                 options.Password.RequireNonAlphanumeric = false;
             })
                      .AddEntityFrameworkStores<AppDbContext>();
+            
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                        policy => policy.RequireClaim("Delete Role"));
+               
+                options.AddPolicy("EditRolePolicy",
+                                   policy => policy.RequireClaim("Edit Role", "true"));
 
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+                options.AddPolicy("AdminRolePolicy",
+                   policy => policy.RequireClaim("Admin"));
+
+                //  options.AddPolicy("EditRolePolicy", policy => policy.RequireClaim("Edit Role"));
+            });
+
+            
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
+            });
+
+
+            
+            services.AddMvc(
+                     options => options.EnableEndpointRouting = false);
+
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "925651397849-ai225llc4votuqdp93mn2oarp1b0833k.apps.googleusercontent.com";
+                options.ClientSecret = "B0YyYnmZCDoU7WoxoKk5jZfn";
+            })
+               .AddFacebook(options =>
+                 {
+                     options.AppId = "4250937284966375";
+                     options.AppSecret = "5253feba4a7588623104839ca786b625";
+                 });
+
             services.AddScoped<IEmployeeRepository, SqlEmployeeRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

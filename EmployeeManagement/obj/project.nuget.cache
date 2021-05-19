@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEFXZidLndawhqa4rzRZQL81JPw2WfRhjhbi9y6YmSdATqprNm+viwSOgUa5R51y5aQnoZuFUtL6Zby/dSNx0A==",
+  "dgSpecHash": "a+lKBP4+1K+7jE/dtDm+EIWfPeQFZt36o1/rhLSUsECYDTI2us94cY0hVrcTfArc5mbcnOx+amhLboi4kRSkcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ahmed Rabie g\\source\\repos\\ASP.NetCore-Application\\EmployeeManagement\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.0.0\\microsoft.aspnetcore.authentication.facebook.3.0.0.nupkg.sha512",
+    "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.0.0\\microsoft.aspnetcore.authentication.google.3.0.0.nupkg.sha512",
     "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\Ahmed Rabie g\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
